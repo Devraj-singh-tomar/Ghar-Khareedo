@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const SignUp = () => {
   return (
-    <div className='p-3 m-3 rounded-2xl max-w-lg mx-auto border-black border '>
+    <div className='p-3 max-w-lg mx-auto '>
       <h1 className='text-3xl text-center font-bold my-7'>Sign up</h1>
       <form className='flex flex-col gap-4'>
         <input type="text" placeholder='username' className='border p-3 rounded-lg ' id='username' />
