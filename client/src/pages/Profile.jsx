@@ -5,6 +5,7 @@ import { getDownloadURL, getStorage, ref, uploadBytesResumable } from 'firebase/
 import { app } from '../firebase.js'
 import { updateUserStart, updateUserSuccess, updateUserFailure, deleteUserFailure, deleteUserStart, deleteUserSuccess, signOutUserStart } from '../redux/user/userSlice.js'
 import { useDispatch } from 'react-redux'
+import {Link} from 'react-router-dom'
 
 
 const Profile = () => {
@@ -170,6 +171,10 @@ const Profile = () => {
           <button disabled={loading} className='bg-slate-700 text-white rounded-lg p-2 uppercase hover:opacity-95 disabled:opacity-80'>
             {loading ? 'Loading...' : "update"}
           </button>
+
+          <Link to={"/create-listing"} className='bg-green-700 text-white rounded-lg p-2 uppercase hover:opacity-95 text-center'>
+            Create Listing
+          </Link>
 
         </form>
 
