@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules'
 import SwiperCore from 'swiper';
-import 'Swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
+import 'Swiper/css/bundle';
 
 
 const Home = () => {
