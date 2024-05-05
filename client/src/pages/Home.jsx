@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules'
 import SwiperCore from 'swiper';
 import ListingItem from '../components/ListingItem';
-import 'Swiper/css/bundle';
+import 'swiper/css/bundle';
 
 
 const Home = () => {

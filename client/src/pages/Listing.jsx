@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore from 'swiper'
 import { Navigation } from 'swiper/modules'
-import 'Swiper/css/bundle';
+import 'swiper/css/bundle';
 
 import {
     FaBath,
